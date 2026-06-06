@@ -1,0 +1,124 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Handwise-HA",
+        "description": "Konfiguriere dein Handwise-/Anthbot-Cloud-Konto für MGC01-Mäher.",
+        "data": {
+          "name": "Name",
+          "username": "E-Mail / Benutzername",
+          "password": "Passwort",
+          "api_host": "API-Host",
+          "area_code": "Land",
+          "scan_interval": "Abfrageintervall (Sekunden)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Dieses Konto ist bereits konfiguriert."
+    },
+    "error": {
+      "cannot_connect": "Verbindung oder Anmeldung fehlgeschlagen.",
+      "no_devices": "Anmeldung erfolgreich, aber keine kompatiblen Geräte gefunden.",
+      "unknown": "Unerwarteter Fehler."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "mower_status": {
+        "name": "Mäherstatus"
+      },
+      "battery_level": {
+        "name": "Akkustand"
+      },
+      "cutting_height": {
+        "name": "Schnitthöhe"
+      },
+      "mowing_area": {
+        "name": "Mähfläche (Sitzung)"
+      },
+      "mowing_area_total": {
+        "name": "Mähfläche (Gesamt)"
+      },
+      "mowing_progress": {
+        "name": "Mähfortschritt"
+      },
+      "mode": {
+        "name": "Modus"
+      },
+      "error_code": {
+        "name": "Fehlercode"
+      },
+      "ip_address": {
+        "name": "IP-Adresse"
+      },
+      "wifi_signal": {
+        "name": "WLAN-Signal"
+      },
+      "current_path_data": {
+        "name": "Aktuelle Pfaddaten"
+      },
+      "zones": {
+        "name": "Zonen"
+      },
+      "auto_zones": {
+        "name": "Auto-Zonen"
+      }
+    },
+    "binary_sensor": {
+      "connection": {
+        "name": "Verbindung"
+      },
+      "charging": {
+        "name": "Ladevorgang"
+      },
+      "rain_detection": {
+        "name": "Regenerkennung"
+      },
+      "pin_ok": {
+        "name": "PIN OK"
+      },
+      "error": {
+        "name": "Fehler"
+      },
+      "safety_trigger": {
+        "name": "Sicherheitsauslöser"
+      }
+    },
+    "button": {
+      "start_full_mow": {
+        "name": "Mähen starten"
+      },
+      "stop_mow": {
+        "name": "Mähen stoppen"
+      },
+      "return_to_dock": {
+        "name": "Zur Ladestation zurückkehren"
+      }
+    },
+    "number": {
+      "mow_height_setting": {
+        "name": "Schnitthöhe"
+      },
+      "rain_wait_time_setting": {
+        "name": "Regen-Wartezeit"
+      },
+      "mow_direction_setting": {
+        "name": "Mährichtung"
+      },
+      "current_mow_times": {
+        "name": "Aktuelle Mähdurchgänge"
+      }
+    },
+    "switch": {
+      "rain_detection_enabled": {
+        "name": "Regenerkennung"
+      }
+    },
+    "lawn_mower": {
+      "none": {
+        "name": "Mäher"
+      }
+    }
+  }
+}

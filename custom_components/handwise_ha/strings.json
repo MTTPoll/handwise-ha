@@ -1,0 +1,124 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Handwise-HA",
+        "description": "Configure your Handwise / Anthbot cloud account for MGC01 mowers.",
+        "data": {
+          "name": "Name",
+          "username": "Email / username",
+          "password": "Password",
+          "api_host": "API host",
+          "area_code": "Country",
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This account is already configured."
+    },
+    "error": {
+      "cannot_connect": "Could not connect or authenticate.",
+      "no_devices": "Login succeeded but no compatible devices were found.",
+      "unknown": "Unexpected error."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "mower_status": {
+        "name": "Mower status"
+      },
+      "battery_level": {
+        "name": "Battery level"
+      },
+      "cutting_height": {
+        "name": "Cutting height"
+      },
+      "mowing_area": {
+        "name": "Mowing area (session)"
+      },
+      "mowing_area_total": {
+        "name": "Mowing area (total)"
+      },
+      "mowing_progress": {
+        "name": "Mowing progress"
+      },
+      "mode": {
+        "name": "Mode"
+      },
+      "error_code": {
+        "name": "Error code"
+      },
+      "ip_address": {
+        "name": "IP address"
+      },
+      "wifi_signal": {
+        "name": "WiFi signal"
+      },
+      "current_path_data": {
+        "name": "Current path data"
+      },
+      "zones": {
+        "name": "Zones"
+      },
+      "auto_zones": {
+        "name": "Auto zones"
+      }
+    },
+    "binary_sensor": {
+      "connection": {
+        "name": "Connection"
+      },
+      "charging": {
+        "name": "Charging"
+      },
+      "rain_detection": {
+        "name": "Rain detection"
+      },
+      "pin_ok": {
+        "name": "PIN OK"
+      },
+      "error": {
+        "name": "Error"
+      },
+      "safety_trigger": {
+        "name": "Safety trigger"
+      }
+    },
+    "button": {
+      "start_full_mow": {
+        "name": "Start mowing"
+      },
+      "stop_mow": {
+        "name": "Stop mowing"
+      },
+      "return_to_dock": {
+        "name": "Return to dock"
+      }
+    },
+    "number": {
+      "mow_height_setting": {
+        "name": "Mow height"
+      },
+      "rain_wait_time_setting": {
+        "name": "Rain wait time"
+      },
+      "mow_direction_setting": {
+        "name": "Mow direction"
+      },
+      "current_mow_times": {
+        "name": "Current mow passes"
+      }
+    },
+    "switch": {
+      "rain_detection_enabled": {
+        "name": "Rain detection"
+      }
+    },
+    "lawn_mower": {
+      "none": {
+        "name": "Mower"
+      }
+    }
+  }
+}
