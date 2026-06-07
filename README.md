@@ -4,7 +4,6 @@
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-Custom%20Integration-41BDF5.svg)](https://www.home-assistant.io/)
 [![GitHub release](https://img.shields.io/github/v/release/MTTPoll/handwise-ha?display_name=tag)](https://github.com/MTTPoll/handwise-ha/releases)
 [![GitHub issues](https://img.shields.io/github/issues/MTTPoll/handwise-ha)](https://github.com/MTTPoll/handwise-ha/issues)
-[![License](https://img.shields.io/github/license/MTTPoll/handwise-ha)](LICENSE)
 
 **Handwise-HA** is a Home Assistant custom integration for **Handwise robotic lawn mowers**.
 
