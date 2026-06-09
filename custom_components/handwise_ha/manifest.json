@@ -1,13 +1,12 @@
 {
   "domain": "handwise_ha",
   "name": "Handwise-HA",
-  "codeowners": [
-    "@MTTPoll"
-  ],
+  "codeowners": ["@MTTPoll"],
   "config_flow": true,
   "documentation": "https://github.com/MTTPoll/handwise-ha",
   "issue_tracker": "https://github.com/MTTPoll/handwise-ha/issues",
   "iot_class": "cloud_polling",
+  "integration_type": "hub",
   "requirements": [],
   "version": "0.1.0"
 }
